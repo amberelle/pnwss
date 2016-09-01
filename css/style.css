@@ -1,5 +1,5 @@
 body {
-  background-color: #EEEEEE;
+  background-color: white;
   color: white; }
   body h3 {
     font-family: "Julius Sans One", sans-serif; }
@@ -225,7 +225,7 @@ a {
   transform: scale(1.1); }
 
 .contents {
-  background-color: #EEEEEE; }
+  background-color: white; }
   .contents h2, .contents p {
     color: #231F20; }
   .contents h3 {

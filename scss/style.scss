@@ -10,7 +10,7 @@ $smfont: 'Open Sans Condensed', sans-serif;
 
 body{
   // background-color:#231F20;
-  background-color:#EEEEEE;
+  background-color:white;
   color:white;
   h3{
     font-family: $medfont;
@@ -277,7 +277,7 @@ a{
   transform: scale(1.1);
 }
 .contents{
-    background-color:#EEEEEE;
+    background-color:white;
 
   h2,p{
     color:#231F20;
@@ -383,6 +383,6 @@ a{
        width:70px;
        display:flex;
        justify-content:center;
-      
+
   }
 }
