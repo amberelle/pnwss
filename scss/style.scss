@@ -133,7 +133,7 @@ a{
   display:flex;
   flex-flow: row;
   flex:initial;
-  width:100%;
+  width:100vw;
 
   @media only screen and (max-width:940px){
     flex-flow:wrap;
@@ -143,7 +143,7 @@ a{
 .surfreport{
   background-image: url('../img/surfinwave.jpeg');
   border-radius:50%;
-  width:33.3%;
+  width:30vw;
   // height:50vh;
   height:30vh;
   background-size: cover;
@@ -155,7 +155,7 @@ a{
 
 
   @media only screen and (max-width: 940px){
-    width:100%;
+    width:50%;
   }
 }
 .surfreport:hover {
@@ -166,7 +166,7 @@ a{
     border-radius:50%;
   background-position: center;
     background-size: cover;
-  width:33.3%;
+  width:30vw;
   height:30vh;
   transition: all .5s ease-in-out;
   display:flex;
@@ -188,7 +188,7 @@ a{
     border-radius:50%;
   background-position: center;
   background-size: cover;
-  width:33.3%;
+  width:30vw;
   height:30vh;
   transition: all .5s ease-in-out;
   display:flex;
@@ -215,7 +215,7 @@ a{
 .camping{
   background-image: url('../img/surftent.jpg');
     border-radius:50%;
-  width:33.3%;
+  width:30vw;
   height:30vh;
   background-size: cover;
   background-position: center;
@@ -238,7 +238,7 @@ a{
     border-radius:50%;
   background-position: center;
     background-size: cover;
-  width:33.3%;
+  width:30vw;
   height:30vh;
   transition: all .5s ease-in-out;
   display:flex;
@@ -260,7 +260,7 @@ a{
     border-radius:50%;
   background-position: center;
   background-size: cover;
-  width:33.3%;
+  width:30vw;
   height:30vh;
   transition: all .5s ease-in-out;
   display:flex;
@@ -270,7 +270,7 @@ a{
   @media only screen and (max-width:940px){
     display:flex;
     flex-flow: row wrap;
-    width:100%;
+    width:50%;
   }
 }
 .about:hover {
@@ -303,6 +303,17 @@ a{
   }
   #img3{
     padding-top:60px;
+  }
+  @media only screen and (max-width:940px){
+    text-align:center;
+    img{
+      display:flex;
+      justify-content:flex-start;
+      flex-flow:row wrap;
+      width:100%;
+
+    }
+
   }
 }
 .gear-content{
@@ -351,11 +362,27 @@ a{
   background-color:#231F20;
   padding:50px;
   text-align: center;
+
   #img{
     border-radius:50%;
     width:30%;
     }
   #email{
     font-family: $smfont;
+  }
+  .fb-share-button{
+    -moz-user-select: none;
+       background: #2A49A5;
+       border: 1px solid #082783;
+       box-shadow: 0 1px #4C6BC7 inset;
+       color: white;
+       padding: 3px 5px;
+       text-decoration: none;
+       text-shadow: 0 -1px 0 #082783;
+       font: 12px Verdana, sans-serif;
+       width:70px;
+       display:flex;
+       justify-content:center;
+      
   }
 }
