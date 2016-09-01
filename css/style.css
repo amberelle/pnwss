@@ -1,5 +1,5 @@
 body {
-  background-color: #231F20;
+  background-color: #EEEEEE;
   color: white; }
   body h3 {
     font-family: "Julius Sans One", sans-serif; }
@@ -99,9 +99,10 @@ a {
       flex-flow: wrap; } }
 
 .surfreport {
-  background-image: url("../img/surfrocks.jpeg");
-  width: 50%;
-  height: 50vh;
+  background-image: url("../img/surfinwave.jpeg");
+  border-radius: 50%;
+  width: 33.3%;
+  height: 30vh;
   background-size: cover;
   background-position: center;
   transition: all .5s ease-in-out;
@@ -117,10 +118,11 @@ a {
 
 .editorial {
   background-image: url("../img/surfbarrel.jpeg");
+  border-radius: 50%;
   background-position: center;
   background-size: cover;
-  width: 25%;
-  height: 50vh;
+  width: 33.3%;
+  height: 30vh;
   transition: all .5s ease-in-out;
   display: flex;
   align-items: center;
@@ -136,10 +138,11 @@ a {
 
 .shops {
   background-image: url("../img/surfsand.jpeg");
+  border-radius: 50%;
   background-position: center;
   background-size: cover;
-  width: 25%;
-  height: 50vh;
+  width: 33.3%;
+  height: 30vh;
   transition: all .5s ease-in-out;
   display: flex;
   align-items: center;
@@ -153,18 +156,19 @@ a {
 .shops:hover {
   transform: scale(1.1); }
 
-.row2 {
+.row1 {
   display: flex;
   flex-flow: row;
   transition: all .5s; }
   @media only screen and (max-width: 940px) {
-    .row2 {
+    .row1 {
       flex-flow: wrap; } }
 
 .camping {
   background-image: url("../img/surftent.jpg");
-  width: 25%;
-  height: 50vh;
+  border-radius: 50%;
+  width: 33.3%;
+  height: 30vh;
   background-size: cover;
   background-position: center;
   transition: all .5s ease-in-out;
@@ -182,10 +186,11 @@ a {
 
 .organizations {
   background-image: url("../img/surfopsurf.jpg");
+  border-radius: 50%;
   background-position: center;
   background-size: cover;
-  width: 25%;
-  height: 50vh;
+  width: 33.3%;
+  height: 30vh;
   transition: all .5s ease-in-out;
   display: flex;
   align-items: center;
@@ -201,10 +206,11 @@ a {
 
 .about {
   background-image: url("../img/surffootprints.jpeg");
+  border-radius: 50%;
   background-position: center;
   background-size: cover;
-  width: 50%;
-  height: 50vh;
+  width: 33.3%;
+  height: 30vh;
   transition: all .5s ease-in-out;
   display: flex;
   align-items: center;
@@ -273,6 +279,7 @@ a {
     font-family: "Open Sans Condensed", sans-serif; }
 
 .about-content {
+  background-color: #231F20;
   padding: 50px;
   text-align: center; }
   .about-content #img {

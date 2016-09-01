@@ -1,5 +1,5 @@
-$("button").click(function() {
+$("surfreport").click(function() {
     $('html,body').animate({
-        scrollTop: $(".second").offset().top},
+        scrollTop: $(".reports-content").offset().top},
         'slow');
 });
