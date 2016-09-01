@@ -1,17 +1,20 @@
 body {
-  background-color: white;
+  background-color: #231F20;
   color: white; }
+  body h3 {
+    font-family: "Julius Sans One", sans-serif; }
 
 .logo {
-  font-family: "Lora", serif;
+  font-family: "Covered By Your Grace", cursive;
   display: flex; }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 800px) {
     .logo {
-      display: none;
-      transition: all 1s; } }
+      transition: all 1s; }
+      .logo img {
+        width: 100px; } }
 
 .header {
-  background-image: url(../image/img1.jpg);
+  background-image: url(../img/surfvintage.jpeg);
   background-image: no-repeat;
   background-size: cover;
   height: 100vh; }
@@ -45,36 +48,20 @@ a {
   align-items: center;
   text-align: center; }
 
-.enjoy {
-  font-family: "Pathway Gothic One", sans-serif;
+.sub-title {
+  font-family: "Julius Sans One", sans-serif;
   font-size: 2em; }
 
-.enjoy h1 {
-  font-size: 4em;
-  font-family: "Lora", serif;
+.sub-title h1 {
+  font-size: 3em;
+  font-family: "Covered By Your Grace", cursive;
   margin: 0; }
-
-button {
-  position: absolute;
-  top: 90%;
-  left: 45%;
-  background-color: #f57505;
-  border-radius: 2px;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 18px;
-  padding: 16px 31px;
-  text-decoration: none;
-  font-family: "Pathway Gothic One", sans-serif;
-  border: none; }
 
 .navigation2 {
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: gray; }
+  background-color: #231F20; }
   .navigation2 .nav-list2 {
     display: flex;
     list-style: none;
@@ -90,12 +77,17 @@ button {
         display: flex;
         align-items: center;
         padding-right: 20%;
-        font-family: "Pathway Gothic One", sans-serif; }
+        font-family: "Julius Sans One", sans-serif; }
 
 .gallery {
   width: 100%;
   height: 100%;
   transition: all; }
+  .gallery h2 {
+    font-size: 3.5em;
+    font-family: "Covered By Your Grace", cursive;
+    text-align: center;
+    text-decoration-style: dotted; }
 
 .row1 {
   display: flex;
@@ -106,50 +98,59 @@ button {
     .row1 {
       flex-flow: wrap; } }
 
-.raft {
-  background-image: url("../image/img2.jpg");
+.surfreport {
+  background-image: url("../img/surfrocks.jpeg");
   width: 50%;
   height: 50vh;
   background-size: cover;
   background-position: center;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media only screen and (max-width: 940px) {
-    .raft {
+    .surfreport {
       width: 100%; } }
 
-.raft:hover {
+.surfreport:hover {
   transform: scale(1.1); }
 
-.tent {
-  background-image: url("../image/img3.jpg");
+.editorial {
+  background-image: url("../img/surfbarrel.jpeg");
   background-position: center;
   background-size: cover;
   width: 25%;
   height: 50vh;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media only screen and (max-width: 940px) {
-    .tent {
+    .editorial {
       display: flex;
       flex-flow: row wrap;
       width: 50%; } }
 
-.tent:hover {
+.editorial:hover {
   transform: scale(1.1); }
 
-.hike {
-  background-image: url("../image/img4.jpg");
+.shops {
+  background-image: url("../img/surfsand.jpeg");
   background-position: center;
   background-size: cover;
   width: 25%;
   height: 50vh;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media only screen and (max-width: 940px) {
-    .hike {
+    .shops {
       display: flex;
       flex-flow: row wrap;
       width: 50%; } }
 
-.hike:hover {
+.shops:hover {
   transform: scale(1.1); }
 
 .row2 {
@@ -160,52 +161,124 @@ button {
     .row2 {
       flex-flow: wrap; } }
 
-.canoe {
-  background-image: url("../image/img5.jpg");
+.camping {
+  background-image: url("../img/surftent.jpg");
   width: 25%;
   height: 50vh;
   background-size: cover;
   background-position: center;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media only screen and (max-width: 940px) {
-    .canoe {
+    .camping {
       display: flex;
       flex-flow: row wrap;
       width: 50%; } }
 
-.canoe:hover {
+.camping:hover {
   transform: scale(1.1); }
 
-.photo {
-  background-image: url("../image/img6.jpg");
+.organizations {
+  background-image: url("../img/surfopsurf.jpg");
   background-position: center;
   background-size: cover;
   width: 25%;
   height: 50vh;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media only screen and (max-width: 940px) {
-    .photo {
+    .organizations {
       display: flex;
       flex-flow: row wrap;
       width: 50%; } }
 
-.photo:hover {
+.organizations:hover {
   transform: scale(1.1); }
 
-.wagon {
-  background-image: url("../image/img7.jpg");
+.about {
+  background-image: url("../img/surffootprints.jpeg");
   background-position: center;
   background-size: cover;
   width: 50%;
   height: 50vh;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   @media only screen and (max-width: 940px) {
-    .wagon {
+    .about {
       display: flex;
       flex-flow: row wrap;
       width: 100%; } }
 
-.wagon:hover {
+.about:hover {
   transform: scale(1.1); }
+
+.contents {
+  background-color: #EEEEEE; }
+  .contents h2, .contents p {
+    color: #231F20; }
+  .contents h3 {
+    font-family: "Julius Sans One", sans-serif;
+    color: #231F20;
+    padding-top: 30px; }
+
+.reports-content {
+  text-align: center; }
+  .reports-content .links {
+    display: flex;
+    justify-content: center; }
+  .reports-content img {
+    padding: 40px; }
+  .reports-content #img1 {
+    padding-top: 100px; }
+  .reports-content #img3 {
+    padding-top: 60px; }
+
+.gear-content {
+  text-align: center; }
+  .gear-content img {
+    padding: 40px; }
+
+.blog-content {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  margin: 80px; }
+  .blog-content h3 {
+    padding-right: 50px; }
+  .blog-content img {
+    padding: 10px; }
+
+.camping-content {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  margin: 80px; }
+  .camping-content h3 {
+    padding-left: 50px; }
+  .camping-content img {
+    padding: 10px; }
+
+.organizations-content {
+  text-align: center; }
+  .organizations-content .links {
+    display: flex;
+    justify-content: center; }
+  .organizations-content p {
+    font-family: "Open Sans Condensed", sans-serif; }
+
+.about-content {
+  padding: 50px;
+  text-align: center; }
+  .about-content #img {
+    border-radius: 50%;
+    width: 30%; }
+  .about-content #email {
+    font-family: "Open Sans Condensed", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
